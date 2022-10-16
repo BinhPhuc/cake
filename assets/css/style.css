@@ -1,0 +1,141 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1001;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    background-color: #fff;
+}
+
+.header--nav {
+    list-style: none;
+}
+
+.header--nav a {
+    text-decoration: none;
+    color: #000;
+    letter-spacing: 4px;
+    padding: 8px 12px;
+    transition: .3s ease;
+}
+
+.header--nav a:hover {
+    background: #ccc;
+}
+
+.header--left-nav {
+    padding-left: 16px;
+}
+
+.header--right-nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.header--nav-list + .header--nav-list {
+    margin-left: 15px;
+}
+
+#slider {
+    position: relative;
+}
+
+#slider img {
+    width: 100%;
+    height: auto;
+}
+
+.slider--des {
+    position: absolute;
+    bottom: 24px;
+    left: 16px;
+    font-size: 36px;
+    letter-spacing: 5px;
+    color: #56575b;
+    font-weight: 500;
+    opacity: 0.7;
+}
+
+#about {
+    padding: 100px 18%;
+    display: flex;
+}
+
+.about--img img {
+    opacity: 0.75;
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+
+.about--img {
+    width: calc(100%/2);
+}
+
+.about--des {
+    width: calc(100%/2);
+    margin-left: 40px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.about--des h1, .about--des h3 {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.about--des h3 {
+    margin-top: 28px;
+}
+
+.about--des p {
+    margin-top: 20px;
+}
+
+.about--des .about--des--second-para {
+    opacity: 0.7;
+}
+
+#menu {
+    padding: 100px 18%;
+    display: flex;
+}
+
+.menu--des {
+    /* margin-right: 32px; */
+}
+
+.menu--img img {
+    padding-left: 60px;
+    opacity: 0.75;
+    width: 100%;
+    height: auto;
+}
+
+.menu--des--name {
+    margin-top: 40px;
+    letter-spacing: 5px;
+}
+
+.menu--des--gra {
+    margin-top: 16px;
+    opacity: 0.5;
+}
+
+.menu--des h1 {
+    text-align: center;
+}
