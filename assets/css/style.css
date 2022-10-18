@@ -139,3 +139,53 @@
 .menu--des h1 {
     text-align: center;
 }
+
+#contact {
+    padding: 100px 18%;
+}
+
+.contact--des {
+    margin-top: 15px;
+    margin-bottom: 16px;
+}
+
+.contact--add {
+    margin-top: 18px;
+    color: #607d8b;
+}
+
+form input {
+    display: block;
+    padding: 16px 8px;
+    min-width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 17px;
+}
+
+.contact--res-form-btn {
+    border: none;
+    outline: none;
+    color: #000;
+    background: transparent;
+    margin-top: 16px;
+    cursor: pointer;
+    text-align: center;
+    padding: 8px 16px;
+    font-size: 14px;
+    transition: .3s ease;
+}
+
+.contact--res-form-btn:hover {
+    background-color: #ccc;
+    color: #000;
+}
+
+#footer {
+    padding: 64px 16px;
+    text-align: center;
+}
+
+#footer a:hover {
+    color: #4CAF50;
+}
